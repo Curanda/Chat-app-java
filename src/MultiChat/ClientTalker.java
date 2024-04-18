@@ -1,10 +1,12 @@
+package MultiChat;
+
 import java.io.*;
 import java.net.Socket;
 
 public class ClientTalker {
     public static void main(String[] args) {
         int serverPort = 12345;
-        String serverAddress = "127.0.0.1";
+        String serverAddress = "localhost";
         Socket socket = null;
         PrintWriter out = null;
 

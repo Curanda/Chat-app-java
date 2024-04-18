@@ -5,7 +5,7 @@ public class Client {
 
     public static void main(String[] args) {
         int serverPort = 1234;  // taki sam jak port serwera
-        String serverAddress = "127.0.0.1"; // dla otoczenia sieciowego należy zmodyfikować
+        String serverAddress = "localhost"; // dla otoczenia sieciowego należy zmodyfikować
         Socket socket = null;   // socket null bo musimy zadeklarować jakąś wartość wejściową. Docelowy socket przyznamy...
         // po połączeniu z serwerem.
 

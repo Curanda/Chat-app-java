@@ -1,3 +1,5 @@
+package MultiChat;
+
 import java.net.ServerSocket;
 import java.net.Socket;
 
